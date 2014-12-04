@@ -1,0 +1,7 @@
+---
+
+# Default ulimit configuration
+ulimit_config: []
+
+# Default limits.conf location
+ulimit_config_location: /etc/security/limits.conf
