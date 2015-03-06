@@ -1,4 +1,4 @@
-sysctl
+ulimit
 ======
 
 Role which helps to manage `ulimit` configuration.

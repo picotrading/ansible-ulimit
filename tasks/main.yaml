@@ -1,8 +1,6 @@
 ---
 
-- name: Create sysctl configuration
+- name: Create ulimit configuration
   template:
     src: limits.conf.j2
     dest: "{{ ulimit_config_location }}"
-  notify:
-    - Reload sysctl configuration
